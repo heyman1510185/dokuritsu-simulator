@@ -1,4 +1,5 @@
 # Dokuritsu Simulator
+![CI](https://github.com/your/repo/actions/workflows/ci.yml/badge.svg)
 
 Dokuritsu Simulator helps Japan-based professionals visualize and prepare for self-employment. It calculates tasks, costs and cash flow on your road to independence.
 
