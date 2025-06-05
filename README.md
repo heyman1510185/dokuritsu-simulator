@@ -60,6 +60,22 @@ packages/
 
 Run `turbo run build` to build all packages. Environment variables are documented in `.env.example` and should be managed via Doppler or GitHub Secrets.
 
+### Environment Variables
+
+Create a `.env` file and provide the following variables:
+
+```
+DATABASE_URL=
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
+EMAIL_SERVER=
+EMAIL_FROM=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
+
+See `.env.example` for sample values.
+
 Pre-commit hooks rely on Husky with lint-staged and pretty-quick to enforce formatting.
 
 ## Milestones
