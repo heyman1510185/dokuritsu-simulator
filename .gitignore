@@ -1,0 +1,10 @@
+node_modules
+.env
+/apps/**/node_modules
+/packages/**/node_modules
+/dist
+.turbo
+/apps/**/dist
+/apps/**/.turbo
+/apps/**/prisma/dev.db*
+/apps/**/pnpm-lock.yaml
