@@ -19,7 +19,7 @@ describe('DiagnosisController (e2e)', () => {
       .post('/api/diagnosis')
       .send({ q1: 'a' })
       .expect(201)
-      .expect(res => {
+      .expect((res) => {
         expect(res.body.todos.length).toBe(2);
       });
   });

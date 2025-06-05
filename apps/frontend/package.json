@@ -16,10 +16,16 @@
     "next": "15.3.3",
     "next-auth": "^4.24.11",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.3",
+    "swr": "^2.3.3",
+    "zod": "^3.25.51"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@storybook/addon-essentials": "^7.6.15",
+    "@storybook/nextjs": "^7.6.15",
+    "@storybook/react": "^7.6.15",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -27,9 +33,6 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "tailwindcss": "^4",
-    "typescript": "^5",
-    "@storybook/react": "^7.6.15",
-    "@storybook/nextjs": "^7.6.15",
-    "@storybook/addon-essentials": "^7.6.15"
+    "typescript": "^5"
   }
 }
