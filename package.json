@@ -7,16 +7,26 @@
     "dev": "turbo run dev",
     "build": "turbo run build",
     "lint": "turbo run lint",
+    "format": "turbo run format",
     "type-check": "turbo run type-check",
-    "test": "turbo run test"
+    "test": "turbo run test",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "packageManager": "pnpm@10.5.2",
   "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.0",
     "prisma": "^6.9.0",
     "turbo": "^2.5.4"
+  },
+  "lint-staged": {
+    "*": [
+      "pnpm lint",
+      "pnpm format"
+    ]
   },
   "private": true
 }
