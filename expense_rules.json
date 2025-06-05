@@ -1,0 +1,122 @@
+[
+  {
+    "category": "Transportation",
+    "result": "true",
+    "reason": "Business related transportation costs like train fares and taxis are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Meals with clients",
+    "result": "gray",
+    "reason": "Meals for sales meetings may be deductible if clearly linked to business.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2265.htm"
+  },
+  {
+    "category": "Office supplies",
+    "result": "true",
+    "reason": "Stationery and other supplies used for business are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Rent",
+    "result": "true",
+    "reason": "Rent for office or shop space is deductible when used exclusively for business.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2200.htm"
+  },
+  {
+    "category": "Utilities",
+    "result": "true",
+    "reason": "Electricity, water and gas for business premises are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Communication",
+    "result": "true",
+    "reason": "Business phone and internet costs are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Business travel",
+    "result": "true",
+    "reason": "Travel expenses necessary for business operations are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Entertainment",
+    "result": "gray",
+    "reason": "Entertainment for clients is partly deductible with proper records.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2265.htm"
+  },
+  {
+    "category": "Training",
+    "result": "true",
+    "reason": "Costs for job related education and seminars are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Professional fees",
+    "result": "true",
+    "reason": "Fees for lawyers, tax accountants and other professionals are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Advertising",
+    "result": "true",
+    "reason": "Advertising and marketing expenses are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Insurance",
+    "result": "gray",
+    "reason": "Business insurance premiums may be deductible depending on the policy.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Equipment purchase",
+    "result": "true",
+    "reason": "Tools and equipment used for over a year can be expensed or depreciated.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2200.htm"
+  },
+  {
+    "category": "Depreciation",
+    "result": "true",
+    "reason": "Depreciation on fixed assets used for business is deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Taxes and dues",
+    "result": "true",
+    "reason": "Business related taxes and membership dues are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Outsourcing",
+    "result": "true",
+    "reason": "Payments to subcontractors for business work are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Payroll",
+    "result": "true",
+    "reason": "Employee salaries and bonuses are deductible business expenses.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Software",
+    "result": "true",
+    "reason": "Business software subscriptions or licenses are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Repairs",
+    "result": "true",
+    "reason": "Repairs and maintenance on business equipment are deductible.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  },
+  {
+    "category": "Miscellaneous",
+    "result": "gray",
+    "reason": "Small expenses not clearly personal may be deductible with justification.",
+    "reference": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/2210.htm"
+  }
+]
