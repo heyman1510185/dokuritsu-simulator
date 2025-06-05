@@ -14,14 +14,17 @@ export default function DashboardPage() {
     { name: 'Expense', value: data?.expense ?? 0 },
   ];
   const progress = data ? data.income - data.expense : 0;
+  const bgClass = progress >= 0 ? 'bg-sakura' : 'bg-rain';
   return (
     <div>
       <h1>Dashboard</h1>
-      <BarChart width={300} height={200} data={chartData}>
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Bar dataKey="value" fill="#8884d8" />
-      </BarChart>
+      <div className={bgClass + ' p-4 rounded'}>
+        <BarChart width={300} height={200} data={chartData}>
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Bar dataKey="value" fill="#8884d8" />
+        </BarChart>
+      </div>
       <div>
         <p>Progress this month: {progress}</p>
       </div>
