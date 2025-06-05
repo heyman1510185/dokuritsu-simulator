@@ -1,6 +1,12 @@
 'use client';
 import { useState } from 'react';
 
+type CheckResult = {
+  result: string;
+  reason: string;
+  reference?: string;
+};
+
 const questions = [
   'Is this cost related to your business?',
   'Did you pay with personal funds?',
@@ -9,7 +15,7 @@ const questions = [
 
 export default function QuickCheck() {
   const [step, setStep] = useState(0);
-  const [result, setResult] = useState<any>(null);
+  const [result, setResult] = useState<CheckResult | null>(null);
 
   const handleAnswer = async (ans: boolean) => {
     if (step < questions.length - 1) {
@@ -20,7 +26,7 @@ export default function QuickCheck() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ category: 'Transportation' }),
       });
-      const data = await res.json();
+      const data: CheckResult = await res.json();
       setResult(data);
     }
   };
