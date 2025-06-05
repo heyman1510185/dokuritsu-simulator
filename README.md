@@ -62,7 +62,7 @@ Run `turbo run build` to build all packages. Environment variables are documente
 
 Copy `.env.example` to `.env` and provide values for the variables before running the apps.
 
-Pre-commit hooks rely on Husky with lint-staged and pretty-quick to enforce formatting.
+After cloning, run `pnpm prepare` to install git hooks. Pre-commit hooks rely on Husky with lint-staged and automatically run `pnpm lint` and `pnpm format`.
 
 ### Environment Variables
 
