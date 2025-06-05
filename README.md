@@ -44,7 +44,7 @@ Displays revenue, expenses and profit for the current month, quarter and year wi
 
 ### Deductible Checker
 
-A yes/no mini tool followed by detailed guides to judge if an expense is deductible. Rules are managed in `expense_rules.json` and link back to official documentation.
+A yes/no mini tool followed by detailed guides to judge if an expense is deductible. Rules are managed in `apps/backend/expense_rules.json` and link back to official documentation.
 
 ## Development
 
