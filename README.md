@@ -72,6 +72,7 @@ After cloning, run `pnpm prepare` to install git hooks. Pre-commit hooks rely on
 - `GOOGLE_CLIENT_ID` – Google OAuth client ID
 - `GOOGLE_CLIENT_SECRET` – Google OAuth client secret
 - `SENTRY_DSN` – Sentry project DSN
+- `API_BASE_URL` – base URL for the backend API in production
 
 ## Milestones
 
