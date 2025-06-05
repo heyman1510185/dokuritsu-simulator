@@ -60,7 +60,18 @@ packages/
 
 Run `turbo run build` to build all packages. Environment variables are documented in `.env.example` and should be managed via Doppler or GitHub Secrets.
 
+Copy `.env.example` to `.env` and provide values for the variables before running the apps.
+
 Pre-commit hooks rely on Husky with lint-staged and pretty-quick to enforce formatting.
+
+### Environment Variables
+
+- `DATABASE_URL` – database connection string
+- `EMAIL_SERVER` – SMTP server connection string for auth emails
+- `EMAIL_FROM` – default from address for auth emails
+- `GOOGLE_CLIENT_ID` – Google OAuth client ID
+- `GOOGLE_CLIENT_SECRET` – Google OAuth client secret
+- `SENTRY_DSN` – Sentry project DSN
 
 ## Milestones
 
